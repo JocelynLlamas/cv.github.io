@@ -1,8 +1,13 @@
+<script setup>
+import Header from '../partials/Header.vue'
+import QuoteTitle from '../partials/QuoteTitle.vue'
+</script>
+
 <template>
   <div class="flex flex-col min-h-screen overflow-hidden">
-
+    <Header/>
     <!-- Page content -->
-    <main class="grow">
+    <main class="grow ">
 
       <!-- Page illustration -->
       <div class="relative max-w-6xl mx-auto h-0 pointer-events-none" aria-hidden="true">
@@ -29,14 +34,3 @@
 
   </div>
 </template>
-
-<script>
-import PageIllustration from '../partials/PageIllustration.vue'
-
-export default {
-  name: 'Features',
-  components: {
-    PageIllustration,
-  },
-};
-</script>
