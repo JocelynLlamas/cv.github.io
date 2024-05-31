@@ -1,4 +1,4 @@
-# Quoty Vue
+# CV Maria Jocelyn Llamas De la Torre
 
 Vue.js landing page template designed by Cruip.
 
