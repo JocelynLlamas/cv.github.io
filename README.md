@@ -1,4 +1,4 @@
-# CV Maria Jocelyn Llamas De la Torre
+# Resume Maria Jocelyn Llamas De la Torre
 
 Vue.js landing page template designed by Cruip.
 
