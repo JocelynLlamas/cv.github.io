@@ -1,0 +1,10 @@
+<template>
+  <div class="fixed bottom-0 z-30 w-full lg:w-1/2 bg-white dark:bg-slate-950 !bg-opacity-80 backdrop-blur-sm">
+    <div class="w-full max-w-xl mx-auto px-4 sm:px-6">
+      <div class="flex py-4 md:py-6 space-x-4">
+        <router-link class="btn w-full text-slate-900 dark:text-slate-200 bg-white dark:bg-slate-900 border-slate-200 hover:border-slate-300 dark:border-slate-800 dark:hover:border-slate-700 shadow shadow-black/5" to="/contact">Contact Me</router-link>
+        <router-link class="btn w-full text-white bg-blue-500 hover:bg-blue-600 shadow shadow-black/5 animate-shine bg-[linear-gradient(100deg,theme(colors.blue.500),45%,theme(colors.blue.400),55%,theme(colors.blue.500))] bg-[size:200%_100%] hover:bg-[image:none]" to="/pay">Pay - $24.560</router-link>
+      </div>
+    </div>
+  </div>
+</template>
