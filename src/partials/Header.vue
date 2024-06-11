@@ -13,7 +13,7 @@ import ThemeToggle from './ThemeToggle.vue'
           <!-- Logo -->
           <router-link class="flex items-center space-x-4" to="/" aria-label="Cruip">
             <img class="rounded-full" :src="Logo" width="50" height="50" alt="Jocelyn">
-            <span class="font-caveat text-xl text-slate-200">Jocelyn Llamas</span>
+            <span class="font-caveat text-xl text-blue-800 dark:text-slate-200">Jocelyn Llamas</span>
           </router-link>
         </div>
 

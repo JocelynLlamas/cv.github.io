@@ -49,7 +49,9 @@ const costs = [
     <div class="grow flex flex-col lg:flex-row">
 
       <!-- Left side -->
-      <QuoteTitle title="The Markyk Corp." date="20 April, 2024" />
+      <QuoteTitle title="About" date="Computer Engineering focused on
+      improving her skills and interested in web
+      development." />
 
       <!-- Right side -->
       <main class="max-lg:grow flex flex-col w-full lg:w-1/2 lg:ml-auto">

@@ -7,7 +7,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="relative w-full lg:w-1/2 lg:fixed lg:inset-0 lg:overflow-y-auto no-scrollbar bg-slate-900 lg:rounded-r-[3rem]">
+  <div class="relative w-full lg:w-1/2 lg:fixed lg:inset-0 lg:overflow-y-auto no-scrollbar bg-blue-100 lg:rounded-r-[3rem] dark:bg-slate-900">
 
     <!-- Background Illustration -->
     <div class="absolute top-0 -translate-y-64 left-1/2 -translate-x-1/2 blur-3xl pointer-events-none" aria-hidden="true">
@@ -18,9 +18,9 @@ const props = defineProps({
       <div class="grow flex flex-col justify-center">
 
         <div class="space-y-3">
-          <div class="font-caveat text-3xl text-blue-500">Quote for</div>
-          <h1 class="h1 font-orbiter font-bold text-white">{{ props.title }}</h1>
-          <time class="block font-caveat text-xl text-slate-400 before:content-['—_']">{{ props.date }}</time>
+          <div class="font-caveat text-3xl text-blue-800 dark:text-blue-500">Computer engineer</div>
+          <h1 class="h1 font-orbiter font-bold text-blue-600 dark:text-white">{{ props.title }}</h1>
+          <time class="block font-caveat text-xl text-slate-500 dark:text-slate-400 before:content-['—_']">{{ props.date }}</time>
         </div>
 
       </div>
