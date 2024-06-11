@@ -60,7 +60,11 @@ const costs = [
             
             <article class="divide-y divide-slate-100 dark:divide-slate-800 -mt-8 mb-4">
               <Brief>
-                The client is looking to review and revamp the information architecture, user experience and user interface design of <strong class="text-slate-900 dark:text-slate-200 font-medium">The Markyk Corp.</strong>, a web application that connects landlords and tenants across Europe and America.
+                <p><strong class="text-slate-900 dark:text-slate-200 font-medium">Computer science engineering</strong></p>
+                <p style="margin-top: 0%;">Universidad Autónoma de San Luis
+                  Potosí, Facultad de Ingeniería.</p>
+                <p class="block font-caveat text-xl text-slate-500 dark:text-slate-400" style="margin-top: 0%;">2018 - 2023.</p>
+                <li style="text-decoration: dashed;">Web Development Speciality.</li>
               </Brief>
               <Details projectLength="4-8 Weeks" startDate="27 Jun, 2024" endDate="27 Aug, 2024" />
               <CostsList :costs="costs" />
